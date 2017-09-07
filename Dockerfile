@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     build-essential git htop tmux pv \
     postgresql libpq-dev \
     python-pip python-dev libjpeg-dev zlib1g-dev \
-    nodejs
+    nodejs --force-yes
 
 RUN npm install -g grunt-cli bower
 
